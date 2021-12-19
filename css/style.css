@@ -99,6 +99,14 @@
     .about{
         text-align: center;
     }
+
+    .photo-icons{
+        display: none;
+    }
+
+    .footer{
+        width:100% !important ;
+    }
 }
 
 @media only screen and (min-width:1270px){
@@ -290,11 +298,16 @@ body{
     margin: 0 auto;
     background-color: #73dcb9;
     width: 70%;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .text-footer{
     font-size: 35px;
     text-align: center;
+}
+.text-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
