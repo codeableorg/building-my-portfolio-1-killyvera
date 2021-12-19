@@ -1,0 +1,300 @@
+.nav-header{
+    font-family: 'OCR-A BT', sans-serif;
+    max-width: 70%;
+    
+}
+
+.nav{
+    background-color: #1b1c1c;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-e{
+    background-color: #1b1c1c;
+    border: none;
+    text-decoration: none;
+    font-size:19px;
+    display: inline-block;
+    margin: 7px 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.nav-e:hover{
+    background-color: #73dcb9;
+    color: #fff;
+}
+
+.my-name{
+    background-color: #1b1c1c;
+    border: none;
+    font-size:19px;
+    margin: 4px 2px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 10px;
+
+}
+
+.bio1{
+    font-family: 'OCR-A BT', sans-serif;
+}
+
+.--green{
+    color: #73dcb9;
+}
+
+.--pink{
+    color: #ffbdcf;
+}
+
+.--white{
+    color: #fff
+}
+
+.--gray{
+    color:#bcbcbc;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:1270px){
+    .my-photo{
+        display: none;
+    }
+    .nav-header{
+        max-width: 100%;
+    }
+
+    .c2{
+        flex-direction: column;
+    }
+    .my-icons{
+        display:none;
+    }
+    .my-name{
+        display: none;
+    }
+    .c1{
+        padding: 0px 0px !important;
+    }
+    .c3{
+        padding: 0px 10px !important;
+    }
+    .grid-layout{
+        width: 100% !important;
+    }
+    .hi-im{
+        text-align: center;
+    }
+
+    .about{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1270px){
+    .icon-container{
+        display:none !important;
+    }
+    
+}
+@media only screen and (max-width:1500px)and(min-width:701px){
+    .icon-container{
+        display: none;
+    }
+}
+
+.grid-layout{
+    background-color: #1b1c1c;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    margin: 0 auto;
+
+
+
+}
+
+.my-photo {
+    padding-left:5px;
+    max-width: 70%;
+    height: auto;
+  }
+  .full{
+      display: inline-block;
+  }
+.icon{
+    margin: 0 auto;
+    height: auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-container{
+    display:flex;
+
+
+}
+
+body{
+    background-color: #131313;
+}
+
+.c1{
+    display: flex;
+    padding: 20px 10px;
+    justify-content: center;
+}
+
+.c2{
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.c3{
+    display: flex;
+    justify-content: center;
+}
+
+.c4{
+    padding-bottom: 20px;
+}
+.c5{
+    grid-column: 1/2;
+}
+
+.fast-basics{
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+.hi-im{
+    font-size: 33px;
+}
+.about{
+    padding-top: 40px;
+    font-size:18px;
+}
+.about-me{
+
+}
+.photo-icons{
+
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+
+}
+.my-icons{
+    max-width: 35%;
+    height: auto;
+}
+
+.skills-container{
+    display: grid;
+    justify-content: flex-start;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-right: 15px;
+    padding-top: 40px;
+
+}
+
+.skill-box{
+    background-color:#272727;
+    box-shadow: 5px 5px 5px rgb(19, 19, 19);
+}
+
+.develop-icons{
+    width: 25px;
+    height:auto;
+    padding: 2px 3px;
+
+}
+.develop-icons2{
+    width: 50px;
+    height:auto;
+    padding: 10px 10px;
+
+}
+
+.header-skills{
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: flex-start;
+    font-size:20px;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+
+}
+
+.title-skills{
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content-skills{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.develop-header{
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+}
+.develop-header-text{
+    margin: 0 auto;
+}
+.hobbies-icons{
+    max-width: 35%;
+    height: auto;
+}
+.hobbies-title{
+    font-size:22px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+.hobbies-container{
+    display:flex;
+}
+.icons-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.title-hobbies-container{
+}
+
+.footer{
+    margin: 0 auto;
+    background-color: #73dcb9;
+    width: 70%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.text-footer{
+    font-size: 35px;
+    text-align: center;
+}
