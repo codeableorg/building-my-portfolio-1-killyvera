@@ -26,22 +26,43 @@
 </head>
 <body class="bg-gray-dev2 ">
   <header>
-    <nav class=" hidden container mx-auto bg-gray-dev-1 lg:flex justify-between rounded px-5 py-5  ">
+    <nav class=" hidden container mx-auto bg-gray-dev-1 md:flex justify-between px-2 py-2">
         <section class ="flex justify-center items-center px-3 py-1" >
-            <img class=" rounded-full w-8" src="../images/develop.png" alt="">
+          <object class="rounded-full" data="../svg/dev_icon.svg" width="32" height="auto"> </object>
             <button class="text-gray-500 pl-2 text-lg ">David Vera</button>
         </section>
   
         <section class=" text-green-code text-lg " >
-            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">Articles</button>
-            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">Portfolio</button>
-            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">About</button>
-            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">Contact</button>
+            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded transition duration-300">Articles</button>
+            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded transition duration-300">Portfolio</button>
+            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded transition duration-300">About</button>
+            <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded transition duration-300">Contact</button>
         </section>
     </nav>
+
+    <nav>
+    <section class=" hidden text-green-code text-lg grid grid-cols">
+      <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">Articles</button>
+      <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">Portfolio</button>
+      <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">About</button>
+      <button class=" hover:bg-green-code hover:text-gray-50 px-5 py-2 rounded ">Contact</button>
+    </section>
+    </nav>
+
+    <nav class="flex container justify-between mx-auto px-5 py-5 md:hidden px-2 py-2" >
+      <section class ="flex justify-center items-center px-3 py-1 " >
+        <object class="rounded-full" data="../svg/dev_icon.svg" width="32" height="auto"> </object>
+          <button class="text-gray-500 pl-2 text-lg ">David Vera</button>
+      </section>
+      
+      <section class= "flex justify-center px-2" >
+        <object data="../svg/hamburger.svg" width="32" height="auto"> </object>
+      </section>
+    </nav>
+
   </header>
 
-    <header class="text-gray-500 bg-gray-dev1 drop-shadow-lg bg-blend-normal ">
+    <header class="text-gray-500 bg-gray-dev1 drop-shadow-lg ">
       <section class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-code ">Hi! I’m David, fullstack developer
@@ -188,7 +209,7 @@
             </div>
           </article>
         </section>
-        <button class="flex mx-auto  mt-16 text-gray-400 border border-gray-400 py-2 px-6 focus:outline-none hover:bg-gray-dev1  rounded text-lg">More Articles</button>
+        <button class="flex mx-auto  mt-16 text-gray-400 border border-gray-400 py-2 px-6 focus:outline-none hover:bg-gray-dev2 hover:border-green-code hover:text-green-code  rounded text-lg">More Articles</button>
       </div>
     </section>
   <section>
